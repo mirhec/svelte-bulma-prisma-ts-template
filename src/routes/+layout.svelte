@@ -2,25 +2,12 @@
 	import '../app.scss';
 </script>
 
-
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar" aria-label="main navigation">
 	<div class="navbar-brand">
 		<a class="navbar-item" href="https://bulma.io">
-			<img
-				src="https://strongs.de/static/images/logo.png"
+			<img alt="Logo"
+				src="https://via.placeholder.com/400x80/?text=Logo"
 			/>
-		</a>
-
-		<a
-			role="button"
-			class="navbar-burger"
-			aria-label="menu"
-			aria-expanded="false"
-			data-target="navbarBasicExample"
-		>
-			<span aria-hidden="true" />
-			<span aria-hidden="true" />
-			<span aria-hidden="true" />
 		</a>
 	</div>
 
