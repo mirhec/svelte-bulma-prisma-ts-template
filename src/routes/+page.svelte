@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import type { PageData } from './$types';
+	export let data: PageData;
+</script>
+
+<h1 class="is-1 title">Users in database</h1>
+
+<div class="box">
+    <ul>
+        {#each data.users as user}
+            <li>{user.name} ({user.email})</li>
+        {/each}
+    </ul>
+</div>
