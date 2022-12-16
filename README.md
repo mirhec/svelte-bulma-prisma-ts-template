@@ -42,3 +42,12 @@ You can preview the production build with `npm run preview`.
 ```bash
 yarn run ts-node-esm scripts/initData.ts
 ```
+
+## Required env vars
+
+```
+DATABASE_URL="file:./dev.db"
+AUTH_SECRET="..."
+GITHUB_ID="..."
+GITHUB_SECRET="..."
+```
